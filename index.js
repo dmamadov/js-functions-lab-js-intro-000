@@ -14,6 +14,6 @@ function happyCustomHolidayTo(holiday, name) {
 happyCustomHolidayTo('Eid', 'Dilovar')
 
 function holidayCountdown(holiday, days) {
-  return `It's ${5} days until ${holiday}!`
+  return `It's ${days} days until ${holiday}!`
 }
 holidayCountdown(5, 'Eid')
